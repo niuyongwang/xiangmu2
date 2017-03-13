@@ -1,0 +1,7 @@
+sudo fdfs_trackerd /etc/fdfs/tracker.conf stop
+sudo fdfs_storaged /etc/fdfs/storage.conf stop
+
+sudo fdfs_trackerd /etc/fdfs/tracker.conf
+sudo fdfs_storaged /etc/fdfs/storage.conf
+
+gcc test.c make_log.c -I ./inc -o test
